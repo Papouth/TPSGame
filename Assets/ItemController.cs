@@ -24,8 +24,17 @@ public class ItemController : MonoBehaviour
 
     [SerializeField] private int ammo = 0; // Nombre de munitions actuel (dans le chargeur)
     // Si munition, le nombre de munitions drop
+
     [SerializeField] private int maxAmmo = 64; // Nombre de munitions max (dans le chargeur)
     // Si munition, le nombre max de munitions qui peuvent être drop
+
+    [Header("Autre")]
+
+    [SerializeField] private int effect = 0; // Effet de l'arme (ex : fait glisser un ennemi)
+
+    [SerializeField] private float timeBetweenShoots = 0.5f; // Temps minimum entre chaque tir
+
+    [SerializeField] private float timeforReloads = 2f; // Temps de rechargement
 
     #endregion
 
