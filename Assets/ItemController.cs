@@ -38,6 +38,8 @@ public class ItemController : MonoBehaviour
 
     #endregion
 
+    #region Builtin Methods
+
     void Start()
     {
 
@@ -51,5 +53,11 @@ public class ItemController : MonoBehaviour
 
 
     }
+
+    #endregion
+
+    #region Custom Methods
+
+    #endregion
 
 }
